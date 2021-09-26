@@ -4,6 +4,8 @@ Custom music player Discord bot based on jagrosh's [JMusicBot](https://jmusicbot
 
 If you like this bot, be sure to add a star to the orginal bot, [**JMusicBot**](https://github.com/jagrosh/MusicBot), as well as the libraries that make this possible: [**JDA**](https://github.com/DV8FromTheWorld/JDA) and [**lavaplayer**](https://github.com/sedmelluq/lavaplayer)!
 
+You can also support the author, jagrosh, directly on [Patreon](https://www.patreon.com/jagrosh)!
+
 [![Release](https://img.shields.io/github/v/release/tgrosson/MusicBot)](https://github.com/tgrosson/MusicBot/releases/latest)
 [![License](https://img.shields.io/github/license/tgrosson/MusicBot)](https://github.com/tgrosson/MusicBot/blob/master/LICENSE)
 
