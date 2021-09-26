@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.tgrosson</groupId>
     <artifactId>BKMusicBot</artifactId>
-    <version>Snapshot</version>
+    <version>0.1.2</version>
     <packaging>jar</packaging>
     
     <repositories>
@@ -105,8 +105,8 @@
                         <goal>shade</goal>
                     </goals>
                     <configuration>
-                        <shadedArtifactAttached>true</shadedArtifactAttached>
-                        <shadedClassifierName>All</shadedClassifierName>
+                        <!-- <shadedArtifactAttached>true</shadedArtifactAttached>
+                        <shadedClassifierName></shadedClassifierName> -->
                         <artifactSet>
                             <includes>
                                 <include>*:*</include>
@@ -122,11 +122,12 @@
                                     <Specification-Title>${project.artifactId}</Specification-Title>
                                     <Specification-Version>${project.version}</Specification-Version>
                                     <Implementation-Title>${project.artifactId}</Implementation-Title>
-                                    <Implementation-Version>${project.version}</Implementation-Version>
+                                    <Implementation-Version>v${project.version}</Implementation-Version>
                                     <Implementation-Vendor-Id>${project.groupId}</Implementation-Vendor-Id>
                                 </manifestEntries>
                             </transformer>
                         </transformers>
+                        <outputFile>C:/myStuff/musicbot/MusicBot-${project.version}.jar</outputFile>
                     </configuration>
                 </execution>
             </executions>
