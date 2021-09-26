@@ -1,0 +1,10 @@
+/nbproject/
+/target/
+/Playlists/
+/test/
+*.json
+*.txt
+nb*.xml
+.settings/
+.classpath
+.project
